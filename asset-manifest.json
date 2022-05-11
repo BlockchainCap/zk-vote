@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/zk-vote/static/css/main.1e42c143.chunk.css",
+    "main.js": "/zk-vote/static/js/main.0ed483a2.chunk.js",
+    "main.js.map": "/zk-vote/static/js/main.0ed483a2.chunk.js.map",
+    "runtime-main.js": "/zk-vote/static/js/runtime-main.5e7950b0.js",
+    "runtime-main.js.map": "/zk-vote/static/js/runtime-main.5e7950b0.js.map",
+    "static/css/2.a62308fe.chunk.css": "/zk-vote/static/css/2.a62308fe.chunk.css",
+    "static/js/2.3df1df18.chunk.js": "/zk-vote/static/js/2.3df1df18.chunk.js",
+    "static/js/2.3df1df18.chunk.js.map": "/zk-vote/static/js/2.3df1df18.chunk.js.map",
+    "static/js/3.736316f9.chunk.js": "/zk-vote/static/js/3.736316f9.chunk.js",
+    "static/js/3.736316f9.chunk.js.map": "/zk-vote/static/js/3.736316f9.chunk.js.map",
+    "index.html": "/zk-vote/index.html",
+    "static/css/2.a62308fe.chunk.css.map": "/zk-vote/static/css/2.a62308fe.chunk.css.map",
+    "static/css/main.1e42c143.chunk.css.map": "/zk-vote/static/css/main.1e42c143.chunk.css.map",
+    "static/js/2.3df1df18.chunk.js.LICENSE.txt": "/zk-vote/static/js/2.3df1df18.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e7950b0.js",
+    "static/css/2.a62308fe.chunk.css",
+    "static/js/2.3df1df18.chunk.js",
+    "static/css/main.1e42c143.chunk.css",
+    "static/js/main.0ed483a2.chunk.js"
+  ]
+}
