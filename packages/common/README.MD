@@ -1,0 +1,1 @@
+Common stuff between hardhat and the frontend. 

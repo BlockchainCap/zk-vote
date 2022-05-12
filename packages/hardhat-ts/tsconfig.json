@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "types": ["node", "ethers", "chai", "mocha"],
+    "allowJs": false,
+    "skipLibCheck": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "typeRoots": ["node_modules/@types", "src/helpers/definitions"] /* List of folders to include type definitions from. */,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "incremental": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "outDir": "dist",
+    "paths": {
+      "~~/*": ["./src/*"],
+      "helpers/*": ["./helpers/*"],
+      "contracts/*": ["./contracts/*"],
+      "tests/*": ["./tests/*"],
+      "generated/*": ["./generated/*"],
+      "tasks/*": ["./tasks/*"]
+    }
+  },
+  "include": ["types", "scripts", "test", "helpers", "./hardhat.config.ts", "deploy", "tasks", "scripts"],
+  "exclude": ["**/node_modules"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    },
+    "moduleTypes": {
+      "**/*": "cjs"
+    }
+  }
+}

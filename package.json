@@ -1,0 +1,43 @@
+{
+  "name": "@zk-vote/main",
+  "version": "0.4.0",
+  "keywords": [
+    "ethereum",
+    "react",
+    "workspaces",
+    "yarn"
+  ],
+  "private": true,
+  "scripts": {
+    "build": "yarn contracts:build && yarn workspace @zk-vote/frontend build",
+    "serve": "yarn workspace @zk-vote/frontend serve",
+    "deploy-frontend": "yarn workspace @zk-vote/frontend deploy-gh-pages",
+    "start": "yarn workspace @zk-vote/frontend start",
+    "contracts:build": "yarn workspace @zk-vote/hardhat compile && yarn workspace @zk-vote/frontend contracts:hardhat",
+    "contracts:rebuild": "yarn workspace @zk-vote/hardhat clean && yarn contracts:build",
+    "hardhat": "yarn workspace @zk-vote/hardhat hardhat",
+    "compile": "yarn workspace @zk-vote/hardhat compile",
+    "chain": "yarn workspace @zk-vote/hardhat chain",
+    "fork": "yarn workspace @zk-vote/hardhat fork",
+    "test": "yarn workspace @zk-vote/hardhat test",
+    "deploy": "yarn workspace @zk-vote/hardhat deploy"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/common",
+      "packages/hardhat-ts",
+      "packages/frontend",
+      "packages/*"
+    ]
+  },
+  "packageManager": "yarn@3.2.0",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^7.11.0",
+    "lint-staged": "^12.4.1",
+    "prettier": "^2.6.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.19",
+    "shx": "^0.3.4",
+    "ts-node": "^10.7.0"
+  }
+}
