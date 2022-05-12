@@ -23,7 +23,7 @@ export const RegisterModal = (props: RegisterModalProps) => {
           onClick={handleShow}
           style={{ float: "right" }}
         >
-          Register Group
+          Register New NFT
         </Button>
       ) : (
         ""
