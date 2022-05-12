@@ -6,7 +6,7 @@ On-chain governance today is fully transparent at the cost of privacy. This mean
 In todays on-chain governance, a contrarian voter may have their decision swayed if they feared social backlash from the community. This demo implementation shows how you can use zero-knowledge proofs to anonymize the sender of a vote or proposal while still maintaining authorization rules.
 
 ## How does it work?
-This project heavily leaned on the [semaphore library](https://semaphore.appliedzkp.org/) which provided the contracts to verify merkle proof of inclusion along with the js libraries to generate the proofs in browser.
+This project heavily leans on the [semaphore library](https://semaphore.appliedzkp.org/) which provides the contracts to verify a merkle proof of inclusion along with the js libraries to generate the proofs in browser.
 
 The demo uses a zero-knowledge proof of inclusion in a set of holders of an NFT collection without revealing the id of the token they own or their public key. First a user that holds the NFT will have to register their identity with the smart contract by submitting a identityCommitment, this is then appended to the on-chain merkle tree. 
 
