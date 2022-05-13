@@ -24,7 +24,7 @@ export const RegisterModal = (props: RegisterModalProps) => {
           style={{ float: "right" }}
         >
           Register New NFT
-        </Button>
+        </Button> 
       ) : (
         ""
       )}

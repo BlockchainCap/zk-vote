@@ -4,9 +4,9 @@ export const Footer = () => {
   return (
     <Navbar fixed="bottom" bg="light" variant="light" expand>
       <Container>
-        <Navbar.Brand>
+        <h6>
           Blockchain Capital - Research and Engineering
-        </Navbar.Brand>
+        </h6>
         <div>
           Questions? Interested in building?{" "}
           <a href="mailto:ryan@blockchain.capital">ryan@blockchain.capital</a>

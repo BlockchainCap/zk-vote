@@ -36,7 +36,7 @@ function App() {
       <QueryClientProvider client={queryClient}>
         <Suspense fallback={<>Loading...</>}>
           <NavBar />
-          <Container style={{ marginBottom: "10vh" }}>
+          <Container style={{ marginBottom: "13vh" }}>
             <Routes>
               <Route path="" element={<HomePage />} />
               <Route path="/group/:groupId" element={<GroupPage />} />
